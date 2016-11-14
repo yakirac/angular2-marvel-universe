@@ -6,7 +6,8 @@
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
     "start": "NODE_ENV='prod' node server.js",
-    "dev": "NODE_ENV='dev' npm run build && nodemon server.js"
+    "dev": "NODE_ENV='dev' npm run build && nodemon server.js",
+    "devnb": "NODE_ENV='dev' nodemon server.js"
   },
   "licenses": [
     {
