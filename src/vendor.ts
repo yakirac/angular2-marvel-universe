@@ -13,4 +13,4 @@ import 'rxjs';
 import 'holderjs';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../public/css/base.css';
+import '../assets/css/base.css';

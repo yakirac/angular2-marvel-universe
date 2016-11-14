@@ -31,7 +31,6 @@ export class HeroModalComponent implements OnInit {
     if(this.hero && this.hero.id) {
       this.heroModalService.getHero(this.hero.id).then((hro) => {
         this.marvelHero = hro;
-        console.log(this.marvelHero);
       });
     }
   }

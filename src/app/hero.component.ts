@@ -31,7 +31,6 @@ export class HeroComponent implements OnInit {
 	}
 
 	showHeroModal(): void {
-		console.log('Hero: ', this);
 		this.showHModal(this.hero);
 	}
 }
