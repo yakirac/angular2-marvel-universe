@@ -1,0 +1,26 @@
+<div class="modal modal-open herom fade in" tabindex="-1" role="dialog" *ngIf="showm">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+      	<h2 class="cmodal-alias"><strong>{{hero.name}}</strong></h2>
+		<h5 class="cmodal-fullname" *ngIf="hero.fullName">aka {{hero.fullName}}</h5>
+		<div class="hero-data description" *ngIf="marvelHero && marvelHero.hero && marvelHero.hero.description">
+	        <p><strong>Origin</strong></p>
+	        {{marvelHero.hero.description}}
+	    </div>
+		<div class="hero-data">
+	        <p><strong>Powers</strong></p>
+	        {{hero.powers}}
+	    </div>
+	    <div class="hero-data">
+	        <p><strong>Weapons</strong></p>
+	        {{hero.weapons}}
+	    </div>
+      </div>
+      <div class="modal-footer">
+      <a href="http://marvel.com" class="marvel-data" *ngIf="marvelHero">{{marvelHero.attributionText}}</a>
+        <button class="btn btn-success" (click)="close()">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

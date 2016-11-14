@@ -1,0 +1,42 @@
+.modal.modal-open.herom {
+  display: block;
+}
+
+/*.cmodal-alias, .cmodal-fullname{
+  padding-left: 20px;
+}*/
+.hero-data {
+  padding: 15px;
+}
+
+.cmodal-alias{
+  color: #62BFA4;
+}
+
+.cmodal-fullname{
+  color: #5a5a5a;
+}
+
+.cmodal-close{
+  float: right;
+}
+
+.btn-success{
+  background-color: #62BFA4;
+  border-color: #62BFA4;
+}
+
+.btn-success:hover{
+  background-color: #5a5a5a;
+}
+
+a.marvel-data {
+  color : #62bfa4;
+  float: left;
+  padding-top: 5px;
+}
+
+a.marvel-data:hover {
+  color : #5a5a5a;
+  text-decoration: none;
+}
