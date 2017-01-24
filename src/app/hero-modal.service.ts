@@ -7,7 +7,7 @@ import { MarvelHero }     from './marvel-hero';
 @Injectable()
 export class HeroModalService {
   
-  private heroUrl = '/api/a2/hero';
+  private heroUrl = '/a2/api/hero';
 
   constructor(private http: Http) {}
 

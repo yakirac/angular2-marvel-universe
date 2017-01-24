@@ -10,7 +10,7 @@ import { MarvelHero } from './marvel-hero';
 @Injectable()
 export class HeroService {
   
-  private heroesUrl = '/api/a2/heroes';
+  private heroesUrl = '/a2/api/heroes';
   private headers = new Headers({'Content-Type': 'application/json'});
   
   constructor(private http: Http) { }
