@@ -12,6 +12,8 @@ import { HeroComponent }       from './hero.component';
 import { HeroesComponent }     from './heroes.component';
 import { HeroModalComponent }  from './hero-modal.component';
 
+import { HolderJsComponent }   from './holderjs.component';
+
 import { HeroService }         from './hero.service';
 
 
@@ -26,7 +28,8 @@ import { HeroService }         from './hero.service';
     AppComponent,
     HeroComponent,
     HeroesComponent,
-    HeroModalComponent
+    HeroModalComponent,
+    HolderJsComponent
   ],
   providers: [ HeroService ],
   bootstrap: [ AppComponent ]
