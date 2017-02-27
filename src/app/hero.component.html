@@ -1,16 +1,4 @@
-<!--<div *ngIf="hero">
-	<h2>{{hero.name}} details!</h2>
-	<div><label>id: </label>{{hero.id}}</div>
-	<div>
-	  <label>name: </label>
-	  <input [(ngModel)]="hero.name" placeholder="name"/>
-	</div>
-	<button (click)="goBack()">Back</button>
-	<button (click)="save()">Save</button>
-</div>-->
-
 <div class="hero-container csnippet col-xs-8 col-lg-3" (mouseenter)="updateImages()" (mouseleave)="updateImages()" (click)="showHeroModal()">
-    <!--<img hjs [hidden]="!showHolder" class="hero-img" data-src="{{hero.holderImage}}">-->
-    <hjs [hidden]="!showHolder" [heroId]="hero.holderId" [imgSrc]="hero.holderImage"></hjs>
+    <hjs [hidden]="!showHolder" [holderId]="hero.holderId" [imgSrc]="hero.holderImage"></hjs>
     <img [hidden]="!showHero" class="hero-img" src="{{hero.image}}">
 </div>
