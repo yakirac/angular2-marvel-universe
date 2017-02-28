@@ -11,7 +11,7 @@ import { HeroComponent }       from './hero.component';
 import { HeroesComponent }     from './heroes.component';
 import { HeroModalComponent }  from './hero-modal.component';
 
-import { HolderJsComponent }   from 'angular2-holderjs/component';
+import { HolderJsModule }      from 'angular2-holderjs/component';
 
 import { HeroService }         from './hero.service';
 
@@ -20,14 +20,14 @@ import { HeroService }         from './hero.service';
   imports: [
     BrowserModule,
     HttpModule,
-	  AppRoutingModule
+	  AppRoutingModule,
+    HolderJsModule
   ],
   declarations: [
     AppComponent,
     HeroComponent,
     HeroesComponent,
-    HeroModalComponent,
-    HolderJsComponent
+    HeroModalComponent
   ],
   providers: [ HeroService ],
   bootstrap: [ AppComponent ]
